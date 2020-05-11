@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CodilityCodewars.Codility.BinaryGap
+namespace CodilityCodewars.Codility
 {
     public class BinaryGap
     {

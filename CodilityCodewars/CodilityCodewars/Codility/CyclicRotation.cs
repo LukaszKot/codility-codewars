@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace CodilityCodewars.Codility.CyclicRotation
+namespace CodilityCodewars.Codility
 {
     public class CyclicRotation
     {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace CodilityCodewars.Codility.OddOccurrencesInArray
+namespace CodilityCodewars.Codility
 {
     public class OddOccurrencesInArray
     {

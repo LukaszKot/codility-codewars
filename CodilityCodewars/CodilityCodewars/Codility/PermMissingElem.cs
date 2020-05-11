@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace CodilityCodewars.Codility.PermMissingElem
+namespace CodilityCodewars.Codility
 {
     public class PermMissingElem
     {

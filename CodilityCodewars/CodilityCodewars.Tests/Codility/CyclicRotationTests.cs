@@ -1,6 +1,7 @@
-﻿using NUnit.Framework;
+﻿using CodilityCodewars.Codility;
+using NUnit.Framework;
 
-namespace CodilityCodewars.Tests.Codility.CyclicRotation
+namespace CodilityCodewars.Tests.Codility
 {
     [TestFixture]
     public class CyclicRotationTests
@@ -10,7 +11,7 @@ namespace CodilityCodewars.Tests.Codility.CyclicRotation
         [TestCase(new int[] { 1, 2, 3, 4 }, 4, ExpectedResult = new int[] { 1, 2, 3, 4 })]
         public int[] test(int[] array, int k)
         {
-            var cyclicRotation = new CodilityCodewars.Codility.CyclicRotation.CyclicRotation();
+            var cyclicRotation = new CyclicRotation();
             return cyclicRotation.Solution(array, k);
         }
     }

@@ -1,6 +1,7 @@
-﻿using NUnit.Framework;
+﻿using CodilityCodewars.Codility;
+using NUnit.Framework;
 
-namespace CodilityCodewars.Tests.Codility.FrogJmp
+namespace CodilityCodewars.Tests.Codility
 {
     [TestFixture]
     
@@ -11,10 +12,7 @@ namespace CodilityCodewars.Tests.Codility.FrogJmp
         [TestCase(3, 999111321, 7, ExpectedResult = 142730189)]
         public int Test(int X, int Y, int D)
         {
-            return new CodilityCodewars
-                    .Codility
-                    .FrogJmp
-                    .FrogJump()
+            return new FrogJump()
                     .Solution(X,Y,D);
         }
     }

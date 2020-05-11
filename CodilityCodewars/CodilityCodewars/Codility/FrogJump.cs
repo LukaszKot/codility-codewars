@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CodilityCodewars.Codility.FrogJmp
+namespace CodilityCodewars.Codility
 {
     public class FrogJump
     {
